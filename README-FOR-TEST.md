@@ -12,6 +12,7 @@ This is a Node.js project that implements a BDD framework using Cucumber with Pr
     * [Pre-requisite](#1-pre-requisite)
     * [Using npm to run the tests](#2-using-npm-to-run-the-tests)
     * [Test Result and Report](#3-test-result-and-report)
+    * [CI-CD Integration](#4-ci-cd-integration)
 
 # Functionality
 The following flows has been automated:
@@ -65,3 +66,8 @@ npm scripts are already defined in the package.json which runs the configuration
 ## 3) Test Result and Report
 cucumber-html-reporter has one of the best reporting and the test reports are generated every time we execute the tests with screenshots.
 When the project is cloned into local, test results reporting, along with screenshots, can be seen if we open **_`cucumber-test-results.html`_** from `(.\e2e\test-reports\cucumber-test-results.html)`.
+
+## 4) CI-CD Integration
+CircleCI is used for running the pipeline respective scripts can be found on .circleci folder and the tests are run automatically upon every commit and pull request.
+
+Also last executed results can be found in this [link(click here for last executed test results)](https://circleci.com/api/v1.1/project/github/sripriyavasan/qa-test-assessment/latest/artifacts/0/e2e/test-reports/cucumber-test-results.html)
