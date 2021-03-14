@@ -1,0 +1,68 @@
+{
+	"characters": {
+		"Han Solo": [{
+				"name": "Han Solo",
+				"skin_color": "fair",
+				"eye_color": "brown",
+				"birth_year": "29BBY",
+				"gender": "male"
+			}
+		],
+		"R2-D2": [{
+				"name": "R2-D2",
+				"skin_color": "white, blue",
+				"eye_color": "red",
+				"birth_year": "33BBY",
+				"gender": "n/a"
+			}
+		],
+		"Skywalker": [{
+				"name": "Luke Skywalker",
+				"skin_color": "fair",
+				"eye_color": "blue",
+				"birth_year": "19BBY",
+				"gender": "male"
+			}, {
+				"name": "Anakin Skywalker",
+				"skin_color": "fair",
+				"eye_color": "blue",
+				"birth_year": "41.9BBY",
+				"gender": "male"
+			}, {
+				"name": "Shmi Skywalker",
+				"skin_color": "fair",
+				"eye_color": "brown",
+				"birth_year": "72BBY",
+				"gender": "female"
+			}
+		]
+	},
+	"planets": {
+		"Tatooine": [{
+				"name": "Tatooine",
+				"population": "200000",
+				"climate": "arid",
+				"gravity": "1 standard"
+			}
+		],
+		"Naboo": [{
+				"name": "Naboo",
+				"population": "4500000000",
+				"climate": "temperate",
+				"gravity": "1 standard"
+			}
+		],
+		"IV": [{
+				"name": "Yavin IV",
+				"population": "1000",
+				"climate": "temperate, tropical",
+				"gravity": "1 standard"
+			}, {
+				"name": "Bestine IV",
+				"population": "62000000",
+				"climate": "temperate",
+				"gravity": "unknown"
+			}
+		]
+	}
+}
